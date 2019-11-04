@@ -1,4 +1,4 @@
-# simple-blog-project
+# PHP Minimal blog scripti
 
 veritabanını kur ve "sistem/ayar.php" kısmından veritabanını ayarla
 
