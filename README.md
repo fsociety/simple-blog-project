@@ -1,9 +1,9 @@
 # PHP Minimal blog scripti
-
-2013 yılında yapılmış php minimal blog projesi
 ```bash
-veritabanını kur ve "sistem/ayar.php" kısmından veritabanını ayarla
+2013 yılında yapılmış php minimal blog projesi
 ```
+veritabanını kur ve "sistem/ayar.php" kısmından veritabanını ayarla
+
 /admin
 username: admin
 password: 123456
