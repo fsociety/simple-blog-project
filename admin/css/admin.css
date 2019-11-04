@@ -1,0 +1,4 @@
+#giris_yap{padding:20px;}
+#giris_yap table tr td{padding:5px;}
+#giris_yap table tr td input{width:220px; border:1px solid #ddd; padding:3px; border-radius:3px;}
+#giris_yap table tr td button{background:#333; color:#fff; border-radius:3px; border:0; padding:3px 7px; cursor:pointer;}

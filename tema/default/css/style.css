@@ -1,0 +1,169 @@
+/* Bu CSS dosyası Tayfun Erbilen tarafından kodlanmıştır */
+
+@import url("blog.css");
+
+/* Genel */
+#genel {width: 960px; margin: 0 auto}
+
+	/* Header */
+	#header {background: url("../images/headerBg.png"); width: 972px; height: 82px; position: relative; left: -6px}
+	
+		/* Logo */
+		.logo {position: absolute; top: 15px; left: 20px}
+		
+		/* Menü */
+		#hMenu {position: absolute; top: 10px; right: 20px; font-size: 14px}
+		#hMenu ul li {float: left; padding: 0 7px}
+		#hMenu ul li a {display: block; color: #a8a8a8; padding: 25px 5px 24px 5px; border-bottom: 3px solid transparent}
+			#hMenu ul li.m1 a {border-color: #f294ca}
+				#hMenu ul li.m1 a:hover, #hMenu ul li.m1.aktif a {color: #f294ca}
+			#hMenu ul li.m2 a {border-color: #8ac1ea}
+				#hMenu ul li.m2 a:hover, #hMenu ul li.m2.aktif a {color: #8ac1ea;}
+			#hMenu ul li.m3 a {border-color: #89d198}
+				#hMenu ul li.m3 a:hover, #hMenu ul li.m3.aktif a {color: #89d198}
+			#hMenu ul li.m4 a {border-color: #f4ce94}
+				#hMenu ul li.m4 a:hover, #hMenu ul li.m4.aktif a {color: #f4ce94}
+			#hMenu ul li.m5 a {border-color: #a8a8a8}
+				#hMenu ul li.m5 a:hover, #hMenu ul li.m5.aktif a {color: #555}
+				
+	/* Menü */
+	#menu {background: url("../images/menuBg.png"); width: 972px; height: 50px; position: relative; left: -6px; margin: 10px 0}
+	#menu ul {padding: 6px}
+	#menu ul li {float: left; background: url("../images/cizgiBg.png") right}
+	#menu ul li a {display: block; font: 13px Arial; color: #bbb; padding: 14px 20px 11px 20px}
+	#menu ul li a:hover {color: #999}
+	#menu ul li.anasayfa a {background: url("../images/anasayfaBg.png") top center; text-indent: -9999px; width: 20px}
+	#menu ul li.anasayfa a:hover {background-position: center -38px}
+	
+	/* İçerik */
+	.icerikUst {background: url("../images/icerikUst.png"); width: 972px; height: 12px; overflow: hidden; position: relative; left: -6px}
+	.icerikAlt {background: url("../images/icerikAlt.png"); width: 972px; height: 19px; overflow: hidden; position: relative; left: -6px; margin-bottom: 20px}
+	#icerik {background: url("../images/icerikBg.png") repeat-y!important; width: 972px; position: relative; left: -6px}
+	
+		/* Sağ */
+		#sag {float: right; width: 318px; position: relative; right: 6px; top: -12px}
+		
+			/* Başlık */
+			.sagBaslik.scizgi {border-top: 1px solid #e8e8e8}
+				.sagBaslik.scizgi h2 {padding: 20px}
+			.sagBaslik {background: url("../images/sagBaslik.png") repeat-x!important; height: 56px}
+				.sagBaslik h2 {font: 18px Arial; color: #727272; padding: 23px 20px}
+			
+			.cizgi {background: url("../images/yatayCizgiBg.png") repeat-x!important; height: 2px}
+			.sagBlok {padding: 0 20px; background: url("../images/bg.png")}
+				.sagBlok.son {border-bottom: 1px solid #e8e8e8}
+			
+			/* Abone Ol */
+			.aboneOl {padding: 20px 0}
+			.aboneOl ul li {float: left; margin-right: 8px}
+			.aboneOl ul li a {display: block; width: 16px; height: 16px; background: url("../images/sosyalBg.png"); text-indent: -9999px}
+				.aboneOl ul li.s2 a {background-position: -16px 0}
+				.aboneOl ul li.s3 a {background-position: -32px 0}
+				.aboneOl ul li.s4 a {background-position: -48px 0}
+				.aboneOl ul li.s5 a {background-position: -64px 0}
+				.aboneOl ul li.s6 a {background-position: -80px 0}
+				.aboneOl ul li.s7 a {background-position: -96px 0}
+				.aboneOl ul li.s8 a {background-position: -112px 0}
+				.aboneOl ul li.s9 a {background-position: -128px 0}
+				.aboneOl ul li.s10 a {background-position: -144px 0}
+			.aboneYazi {padding: 9px 0; margin: 13px 0; border: 1px solid #f2eaea; border-left: 0; border-right: 0; font-size: 11px; line-height: 18px; color: #888}
+			.aboneInput {background: url("../images/inputBg.png"); width: 279px; height: 29px; position: relative}
+				.aboneInput span {position: absolute; top: 1px; left: 30px}
+				.aboneInput span input {width: 225px; background: transparent; height: 17px; padding: 5px; font-size: 11px; color: #888}
+				
+			/* Sponsor Bağlantıları */
+			.sponsor {font-size: 11px; padding: 20px 0; color: #565656}
+			.sponsor a {color: #64afe7}
+			.sponsor a:hover {text-decoration: underline}
+			.sponsorReklam {background: url("../images/sponsorBg.png"); width: 279px; height: 86px; margin: 15px 0 10px 0; position: relative}
+				.sponsorReklam span {position: absolute; top: 12px; left: 53px}
+			.sponsor p.sponsor-p {color: #b4b4b4; text-align: center}
+			
+				/* Banner */
+				.banner {border-top: 1px solid #f2eaea; padding-top: 15px; margin-top: 15px}
+				.banner a img {border: 1px solid #e8e8e8; padding: 1px}
+				
+			/* Önce Çıkanlar */
+			.oneCikanlar {padding: 20px 0 12px 0; font-size: 11px}
+			.oneCikanlar ul li {height: 75px; border-bottom: 1px solid #f3f3f3; margin-bottom: 15px}
+			.oneCikanlar ul li a img {float: left; padding: 1px; border: 1px solid #eee; margin-right: 5px}
+			.oneCikanlar ul li a strong {color: #64afe7; font-size: 13px; display: block; line-height: 19px; padding-bottom: 5px}
+			.oneCikanlar ul li a span.ocYorum {background: url("../images/ikon_yorum.png") 2px 7px; color: #737373; padding: 5px 5px 5px 22px}
+			.oneCikanlar ul li a span.ocOkunma {background: url("../images/ikon_okunma.png") 0 6px; color: #737373; padding: 5px 5px 5px 20px; margin-left: 10px}
+			.oneCikanlar ul li a:hover strong {color: #999}
+			.oneCikanlar ul li a:hover img {border-color: #999}
+			
+				/* Banner2 */
+				.banner2 {width: 274px; height: 228px; padding: 1px; border: 1px solid #e8e8e8; overflow: hidden; margin-bottom: 15px}
+				
+			/* Her Gün */
+			.herGun {padding: 20px 0; overflow: auto}
+			.herGun ul li {float: left; width: 42px; height: 42px; border: 2px solid #e5e5e5; margin-right: 10px; margin-bottom: 10px}
+			.herGun ul li:hover {border-color: #656565}
+		
+		
+		/* Sol */
+		#sol {float: left; width: 599px; margin-left: 25px; padding-bottom: 50px}
+		
+			/* Neredeyim */
+			.neredeyim {padding: 13px 0; position: relative; top: -2px; background: url("../images/solCizgi.png") repeat-x bottom!important; margin-bottom: 20px; font-size: 12px; color: #4a4a4a}
+			.neredeyim h4 {font-weight: normal; background: url("../images/ikon_bayrak.png") 0; padding-left: 8px}
+			.neredeyim a {padding: 5px 8px; color: #4a4a4a}
+			.neredeyim a.ansyf {color: #d780b0}
+			.neredeyim a:hover {text-decoration: underline}
+			
+			/* Slider */
+			#slider {width: 599px; height: 216px; overflow: hidden; position: relative; margin-bottom: 25px}
+			#slider ul li {position: relative; float: left}
+			#slider ul li a span {position: absolute; height: 23px; background: url("../images/seffafBg.png") repeat!important; z-index: 5; bottom: 0; left: 0; width: 100%; color: #fff; font-size: 15px; padding: 10px 15px}
+				.sliderButon {position: absolute; bottom: 8px; right: 0; z-index: 10; width: 80px}
+				.sliderButon a {display: block; width: 27px; height: 24px; background: url("../images/sliderOk.png"); text-indent: -9999px; float: left; margin-left: 8px}
+				.sliderButon a#Sonraki {background-position: -27px 0}
+				
+			/* Sponsor Ol */
+			.sponsorOl {background: url("../images/sponsorBg2.png"); width: 599px; height: 70px; position: relative; margin-bottom: 25px}
+			.sponsorOlLink {position: absolute; top: 0; right: 0; width: 122px; height: 65px}
+				.sponsorOlLink a {display: block; text-indent: -9999px; height: 65px}
+			.sponsorOl span {position: absolute; top: 6px; left: 5px}
+		
+			/* Başlık */
+			.solBaslik {background: url("../images/solBaslik.png"); height: 35px}
+			.solBaslik h2 {font-size: 18px; color: #656565; padding: 10px}
+			.solBaslik h2 a {color: #656565; display: block}
+				.solBaslik h2 a:hover {color:#64afe7;}
+			
+			/* Konu */
+			.konu {background: url("../images/solCizgi2.png") repeat-x bottom!important; padding-bottom: 5px; margin-bottom: 25px}
+			.konuUst {margin: 10px 0; font-size: 11px; color: #bebebe; border-bottom: 1px solid #f4f4f4; height: 25px}
+			.konuUst a {color: #8dc4ed}
+			.konuUst a:hover {text-decoration: underline}
+			.konuUst span {float: left; display: block; margin-right: 20px}
+			.konuUst span.kaKategori {background: url("../images/ikon_kategori.png") 0 2px; padding: 0 5px 0 20px}
+			.konuUst span.kaYorum {background: url("../images/ikon_yorum.png") 0 2px; padding: 0 5px 0 20px}
+			.konuUst span.kaOkunma {background: url("../images/ikon_okunma.png") 0 1px; padding: 0 5px 0 20px}
+			.konuUst span.kaTarih {background: url("../images/ikon_tarih.png") 0 1px; padding: 0 5px 0 20px}
+			.konuResim {float: left; border: 1px solid #d8dee4; padding: 1px; background: #fff; margin-right: 10px; width: 218px; height: 138px}
+				.konuResim img {width: 218px; height: 138px}
+			.konuAc {font-size: 12px; line-height: 24px; color: #4a4a4a}
+			.konuAlt {background: url("../images/konualt.png") repeat scroll 0 0 transparent; color: #FFF; float: left; font-family: Tahoma; font-size: 11px; height: 34px; margin: 0 1px; width: 580px; margin-top:5px;}
+			.devam{background: url("../images/devami.png")no-repeat; float:right; position:relative; width:116px; height:34px; margin-right:-20px;}
+				.konuAlt a {margin-right: 5px}
+				
+			/* Sayfalama */
+			#sayfalama {background: url("../images/sayfalamaBg.png"); width: 641px; height: 54px; position: absolute; bottom: -7px; left: 6px; z-index: 1}
+			#sayfalama div {width: 78px; height: 28px; background: url("../images/sayfalamaBtn.png")}
+			#sayfalama a {display: block; height: 28px; text-indent: -9999px}
+			.sOnceki {float: left; margin: 13px}
+			.sSonraki {float: right; background-position: -79px 0!important; margin: 13px}
+			
+		/* Footer */
+		#footer {font-size: 11px; color: #95a0aa; text-shadow: 1px 1px #e8edf3; position: relative; top: -10px; margin-bottom: 20px; height: 30px}
+		#footer a {color: #95a0aa}
+		#footer a:hover {text-decoration: underline}
+		#footer p a {font-weight: bold}
+		#footer ul {height: 15px; margin-bottom: 6px; position: relative; left: -10px}
+		#footer ul li {float: left}
+		#footer ul li a {padding: 5px 10px}
+		.fSol {float: left}
+		.fSag {float: right; text-align: right}
+		#konu_anasayfa{padding-top:20px; padding-bottom:20px; padding-right:50px; color: #9A9797; font-family: Tahoma; font-size: 12px;}

@@ -1,0 +1,14 @@
+/* Giriş Yap */
+
+#giris h2{font-size:18px; margin-bottom:10px; padding-bottom:10px; padding-top:6px; border-bottom:1px dashed #ddd;}
+#giris ul li{padding:3px 0; font-size:12px;}
+#giris ul li input{width:220px; padding:5px; border:1px solid #ddd; border-radius:3px;}
+#giris ul li button{background:url(../images/giris.png); width:96px; height:34px; cursor:pointer;}
+
+.hata{background:lightyellow; padding:7px; border-radius:3px; font-size:12px; margin-bottom:10px; color:red;}
+.ok{background:lightgreen; padding:7px; border-radius:3px; font-size:12px; margin-bottom:10px;}
+
+/* Etiketler */
+.konuEtiketler{background:#f1f1f1; padding:7px; font-size:12px; margin-top:7px;}
+.konuEtiketler a{color:#333; padding:0 3px;}
+.konuEtiketler a:hover{text-decoration:underline;}

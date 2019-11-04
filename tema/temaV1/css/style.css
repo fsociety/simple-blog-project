@@ -1,0 +1,113 @@
+/* Bu CSS dökümaný Tayfun Erbilen tarafýndan kodlanmýþtýr */
+
+body {background: url(../images/body_bg.png); margin: auto; font: 12px Tahoma}
+img {border: none}
+a {text-decoration: none}
+input,ul,li,table,tr,td,h1,h2,h3,h4,h5,h6,p,form,textarea {padding: 0; margin: 0; border: none; list-style-type: none}
+:focus {outline: 0}
+.clear {clear: both}
+
+/* Genel */
+#genel {width: 900px; margin: 0 auto; overflow: auto}
+
+/* Header */
+#header {margin-bottom: 13px}
+
+	/* Reklam */
+	.reklam {float: right; width: 562px; height: 72px; overflow: hidden; margin-top: 20px}
+	
+	/* Menü */
+	#menu {background: url(../images/menu_bg.png); width: 900px; height: 46px}
+	#menu a {font-size: 14px; font-weight: bold; color: #fff; text-shadow: 1px 1px #161b2b; display: block; float: left; padding: 15px 22px 15px 15px; background: url(../images/cizgi.png) no-repeat right}
+	
+/* Sað */
+#sag {width: 232px; float: right; margin-bottom: 10px}
+
+	/* Kullanýcý Giriþi */
+	.sag_bas1 {background: url(../images/cizikcd.png); width: 210px; height: 23px; font-weight: bold; font-size: 16px; color: #fff; text-shadow: 1px 1px #196b92; padding: 11px}
+	#arama {background-color: #fff; border: 1px solid #0c92aa; border-bottom: none; border-top: none; padding: 0 5px}
+	#kgiris {background-color: #fff; border: 1px solid #0c92aa; border-bottom: none; border-top: none; padding: 0 5px}
+	#kgiris span {display: block; padding: 5px 0; font-family: Arial; color: #262626}
+	#kgiris span.giris_buton {text-align: right; padding-right: 2px; padding-top: 7px}
+	input.kgiris_input {background: url(../images/cizikcd.png); width: 207px; height: 16px; background-position: -283px 0; padding: 5px; color: #656565}
+	input.arama {width:170px; height:25px; border:1px solid #ccc;}
+	button.arama {height:25px; background: #333; color: #fff; border-radius: 3px; border: 0; padding: 3px 7px; cursor: pointer;}
+	.sag_alt1 {background: url(../images/cizikcd.png); width: 232px; height: 19px; background-position: 0 -45px}
+	
+	.aramabas {background: url(../images/arama.png); width: 210px; height: 23px; font-weight: bold; font-size: 16px; color: #fff; text-shadow: 1px 1px #0e588d; padding: 11px;}
+		
+	/* Kategoriler */
+	.sag_bas2 {background: url(../images/cizikcd.png); width: 210px; height: 23px; font-weight: bold; font-size: 16px; color: #fff; text-shadow: 1px 1px #0e588d; padding: 11px; background-position: 0 -64px}
+	#kategoriler {background-color: #fff; padding: 5px; border: 1px solid #016aa6; border-bottom: none; border-top: none}
+	#kategoriler li {background: url(../images/golge.png) no-repeat bottom center; padding: 0 5px 13px 2px}
+	#kategoriler li a {display: block; padding: 5px; color: #303030; font-family: Arial; width: 206px; height: 14px}
+	#kategoriler li a:hover {background: url(../images/a_hover.png) no-repeat; color: #fff; text-shadow: 1px 1px #0b487c}
+	.sag_alt2 {background: url(../images/cizikcd.png); width: 232px; height: 19px; background-position: 0 -109px}
+	
+	/* Son Yorumlar */
+	.sag_bas3 {background: url(../images/cizikcd.png); width: 210px; height: 23px; font-weight: bold; font-size: 16px; color: #fff; text-shadow: 1px 1px #20396b; padding: 11px; background-position: 0 -128px}
+	#son_yorumlar {background-color: #fff; padding: 0 5px; border: 1px solid #0042a6; border-top: none; border-bottom: none}
+	.yorum_resim {float: left; background: url(../images/cizikcd.png); width: 58px; height: 53px; background-position: -442px -26px; text-align: center; padding-top: 3px; margin-right: 5px}
+	.yorum_resim img {width: 49px; height: 48px}
+	.yorum {background: url(../images/golge.png) no-repeat top center; height: 63px; padding-top: 7px}
+	.yorum a span {display: block; color: #8ca3c7; font-size: 12px}
+	.yorum a {color: #aebed8; font-size: 11px; line-height: 17px}
+	.sag_alt3 {background: url(../images/cizikcd.png); width: 232px; height: 15px; background-position: 0 -173px}
+	
+/* Sol */
+#sol {float: left; width: 657px; margin-bottom: 10px}
+
+	/* Konu */
+	.konu_baslik {background: url(../images/sol_baslik.png); width: 657px; height: 67px}
+	.konu_tarih {float: right; color: #fff; text-shadow: 1px 1px #296f9f; text-align: center; padding: 7px 15px; font-family: Arial}
+	.konu_tarih h2 {font-size: 30px; font-weight: bold}
+	.konu_baslik h1 {font: bold 14px Arial; color: #fff; text-shadow: 1px 1px #296f9f; height: 19px; padding: 10px}
+	.konu_baslik h1 a{font: bold 14px Arial; color: #fff; text-shadow: 1px 1px #296f9f; height: 19px; padding: 10px}
+	.konu_baslik span {background: url(../images/cizgi2.png) no-repeat right; padding: 6px 17px 6px 10px; display: block; float: left; color: #fff; font-size: 11px; text-shadow: 1px 1px #134878}
+	.konu_baslik span img {vertical-align: text-top; margin-right: 3px}
+	.konu {font-family: Arial; background: #fff url(../images/golge.png) no-repeat top center; padding: 5px; border: 1px solid #19415d; border-top: none; border-bottom: none; color: #2b2e30; line-height: 20px}
+	.konu_alt {background: url(../images/konu_alt.png); width: 657px; height: 12px; font-size: 0}
+	.konu_content {margin-bottom: 20px}
+	
+	/* Yorumlar */
+	h1.yorumlar_bas {font: italic 20px Georgia; text-shadow: 1px 1px #fff; color: #8e8e8e; margin-bottom: 10px}
+	h1.yorumlar_bas span {color: #1e6eaa}
+	.yyorum {font: 12px Arial; margin-bottom: 10px}
+	.yyorum_resim {background: url(../images/yorum_resim2.png); width: 84px; height: 79px; float: left; padding: 3px}
+	.yyorum_resim img {width: 75px; height: 79px}
+	.yyorum_sag_ust {background: url(../images/sag_yorum_bas.png); width: 554px; height: 18px; color: #4b99d4; font-style: oblique; padding: 5px}
+	.yyorum_sag_ust a {color: #3e92d1; text-decoration: underline; font-weight: bold; font-size: 14px}
+	.yyorum_sag_ust span {color: #aeaeae}
+	.yyorum_sag {float: right; width: 564px}
+	.yorum_icerik {background-color: #fff; border: 1px solid #b3b3b3; border-top: none; border-bottom: none; padding: 0 5px; color: #5f5f5f; font-size: 11px; line-height: 17px}
+	.yyorum_alt {background: url(../images/sag_yorum_alt.png); width: 554px; height: 17px; padding: 3px 5px; text-align: right}
+	a.admin {float: right; margin-top: -10px; margin-right: -10px}
+	
+	/* Yorum Yap */
+	#yorum_yap {background: url(../images/yorum_yap_Bg.png); width: 631px; height: 222px; padding: 60px 15px 0 15px; font-family: Arial; margin-top: 25px}
+	#yorum_yap span {display: block; padding: 5px 0; color: #fff}
+	#yorum_yap span span {display: inline; padding: 0!important; color: #8e8e8e}
+	#yorum_yap input.yyap_input {background: url(../images/input_bg.png); width: 216px; height: 20px; padding: 5px; line-height: 20px; margin-bottom: 15px}
+	.yyap_textarea {background: url(../images/textarea_bg.png); width: 381px; height: 135px; padding: 5px; margin-left: -1px; font: 12px Arial}
+	.yorum_alt {background: url(../images/yorum_alt.png); width: 390px; height: 25px; text-align: right}
+	
+	/* Sayfalar */
+	.sayfalar {margin-top: 20px; text-align: right; background: #fff; padding: 10px; border: 1px solid #ccc}
+	.sayfalar a {font-size: 15px; color: #3079b0; margin-left: 15px}
+	
+/* Footer */
+#footer {background: url(../images/footer_bg.png) no-repeat bottom center; padding: 5px 0 50px 0; color: #656565}
+.footer {width: 900px; margin: 0 auto}
+
+.konuEtiketler{background:#f1f1f1; padding:7px; font-size:12px; margin-top:7px;}
+.konuEtiketler a{color:#333; padding:0 3px;}
+.konuEtiketler a:hover{text-decoration:underline;}
+.kod{
+display: block;
+padding: 0.5em;
+background: #f9fafa;
+border: 1px solid #dce7e7;
+overflow: auto;
+margin-top:20px;
+margin-bottom:20px;
+}

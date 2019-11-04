@@ -1,0 +1,16 @@
+/*
+	@Reset.CSS
+	@Tayfun Erbilen
+	@erbilen.net
+*/
+
+@import url("style.css");
+
+body {background: #d3d9e0 url("../images/bodyBg.png"); margin: auto; font-family: Arial}
+table, tr, td, ul, ol, li, h1, h2, h3, h4, h5, h6, p, form, input, textarea, select, button, p, img {padding: 0; margin: 0; border: 0}
+table {border-collapse: collapse}
+li {list-style: none}
+a {text-decoration: none}
+:focus {outline: 0}
+body * {background-repeat: no-repeat!important}
+.clear {clear: both}

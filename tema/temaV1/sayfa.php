@@ -1,0 +1,1 @@
+<!-- Konu --><div class="konu_content">	<div class="konu_baslik">	<h1 style="font-size:20px;"><?php echo $baslik; ?></h1>	</div>	<div class="konu">	<?php echo $icerik; ?>		<div class="clear"></div>	</div>	<div class="konu_alt"></div></div><!--#Konu -->
