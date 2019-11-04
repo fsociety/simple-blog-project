@@ -8,4 +8,4 @@ password: 123456
 
 başlamadan önce ayarlara git ve "site url" kısmını değiştir.
 
-# Not: Tema entegre edilebilir
+### Not: Tema entegre edilebilir
