@@ -1,5 +1,7 @@
 # PHP Minimal blog scripti
 
+2013 yılında yapılmış php minimal blog projesi
+
 veritabanını kur ve "sistem/ayar.php" kısmından veritabanını ayarla
 
 /admin
